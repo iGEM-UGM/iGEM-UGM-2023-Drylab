@@ -1,8 +1,7 @@
 iGEM UGM 2023: ColDBlu Project
-Drylab Section
+LiRA Optimization Section
 ==============================
 
-This documentation included general and specific purpose of Drylab consists of Toehold LiRA Optimization, kinetic modelling (SOON), and dFBA, Genome Scale Modelling (Optional)
 
 Project Organization
 ------------
