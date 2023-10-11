@@ -14,7 +14,7 @@ Project Organization
     │   └── tableau_data                            <- Folder saving the combinations result
     │       ├── AND.csv                             <- Using 2 miRNAs
     │       └── OR-1miR.csv                         <- Using 1 miRNA
-    └── Kinetic-Modelling
+    └── LiRA-Optimization
         ├── autogluon-nupack.ipynb                              <- Processing using AutoGluon
         ├── final.csv                                           <- Gathering parameter result
         ├── NUPACK Design Parameter Settings for LIRA.pdf       <- Guide to setup Design Job
