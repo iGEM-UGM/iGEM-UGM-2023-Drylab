@@ -2,6 +2,7 @@ iGEM UGM 2023: ColDBlu Project
 Dry Lab Section
 ==============================
 
+Kinetic Modelling also can be accessed through this [Tableau Visualization](https://public.tableau.com/app/profile/kayla2917/vizzes)
 
 Project Organization
 ------------
