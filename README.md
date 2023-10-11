@@ -1,58 +1,25 @@
 iGEM UGM 2023: ColDBlu Project
-Drylab Section
+Dry Lab Section
 ==============================
 
-This documentation included general and specific purpose of Drylab consists of Toehold LiRA Optimization, kinetic modelling (SOON), and dFBA, Genome Scale Modelling (Optional)
 
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
+    ├── README.md          <- The description of this project.
+    ├── Kinetic-Modelling
+    │   ├── Kinetic Modeling Equation for LIRA.pdf  <- Equation of Kinetic Modelling and constanta
+    │   ├── Kinetic_Modeling_for_LIRA.ipynb         <- Kinetic modelling for LIRA with visualization
+    │   ├── kinetic_modelling_for_tableau.ipynb     <- Kinetic modelling for combination setup
+    │   └── tableau_data                            <- Folder saving the combinations result
+    │       ├── AND.csv                             <- Using 2 miRNAs
+    │       └── OR-1miR.csv                         <- Using 1 miRNA
+    └── Kinetic-Modelling
+        ├── autogluon-nupack.ipynb                              <- Processing using AutoGluon
+        ├── final.csv                                           <- Gathering parameter result
+        ├── NUPACK Design Parameter Settings for LIRA.pdf       <- Guide to setup Design Job
+        ├── pipeline.ipynb                                      <- Gathering Sequence, Parameters, and Linear Regression Multivariate Regression
+        └── table_data_a10996f7-3a7c-49eb-ba3c-bf682effc883.csv <- Raw data
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
